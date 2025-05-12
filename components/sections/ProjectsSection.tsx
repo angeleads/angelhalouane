@@ -16,7 +16,7 @@ export default function ProjectsSection() {
       title: "ShareToGo",
       subtitle: "Freelance",
       description:
-        "A React Native carpooling app with Firebase backend, featuring ride reservations, group chat, reviews, and user profiles.",
+        "Sharetogo is a React Native carpooling app with Firebase backend, featuring ride reservations and cancelations, group chat, reviews, and user profiles. It was developed to provide a seamless experience for employees looking to share rides.",
       image: "/sharetogo.png",
       tags: [
         { text: "NextJS", color: "green" },
@@ -29,7 +29,7 @@ export default function ProjectsSection() {
       title: "SPINE",
       subtitle: "Masters project",
       description:
-        "A modern company website built with ReactJS, featuring a strong brand identity and cohesive visual design created in Figma.",
+        "SPINE is platform for indie game developers to share their video games and get live feedback, reviews and statistics about their games. It is a modern company website built with ReactJS, and firebase featuring a strong brand identity and cohesive visual designed with TailwindCSS.",
       image: "/spine.png",
       tags: [
         { text: "ReactJS", color: "blue" },
@@ -42,20 +42,20 @@ export default function ProjectsSection() {
       title: "ZePortfolioBuilder",
       subtitle: "Side Project",
       description:
-        "This project is a web development tool built with Next.js, Firebase, and Tailwind CSS. It allows users to create, edit, delete, and manage projects with customizable features such as icons, colors, labels, and descriptions.",
+        "ZePortfolioBuilder is a web-based platform designed to enable users to create personalized portfolio websites using pre-designed templates. The platform will allow users to select a template, customize it with their content, and publish their portfolio online. ",
       image: "/ZPB.png",
       tags: [
         { text: "NextJS", color: "green" },
         { text: "GrapeJS", color: "pink" },
         { text: "Supabase", color: "yellow" },
       ],
-      url: "http://spineclouds.me",
+      url: "http://ze-portfolio-builder.vercel.app",
     },
     {
       title: "Viven Remax",
       subtitle: "Side Project",
       description:
-        "This project is a web development tool built with Next.js, Firebase, and Tailwind CSS. It allows users to create, edit, delete, and manage projects with customizable features such as icons, colors, labels, and descriptions.",
+        "This project is a web page developed for a real estate agency. It showcases properties, offers a user-friendly interface, and is built with Next.js and Tailwind CSS. The site is designed to provide an engaging experience for users looking to buy or sell properties.",
       image: "/viven.png",
       tags: [
         { text: "NextJS", color: "green" },

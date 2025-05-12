@@ -176,7 +176,7 @@ export default function SkillsSection() {
                 Tools
               </h3>
               <div className="grid grid-cols-2 gap-3">
-                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 transition-colors">
+                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 dark:hover:bg-brown-light transition-colors">
                   <div className="h-10 w-10 flex items-center justify-center text-blue-primary">
                     <Github size={24} />
                   </div>
@@ -184,7 +184,7 @@ export default function SkillsSection() {
                     Git/GitHub
                   </span>
                 </div>
-                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 transition-colors">
+                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 dark:hover:bg-brown-light transition-colors">
                   <div className="h-10 w-10 flex items-center justify-center text-blue-primary">
                     <TbBrandVscode size={24} />
                   </div>
@@ -192,13 +192,13 @@ export default function SkillsSection() {
                     VS Code
                   </span>
                 </div>
-                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 transition-colors">
+                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 dark:hover:bg-brown-light transition-colors">
                   <div className="h-10 w-10 flex items-center justify-center text-blue-primary">
                     <Figma size={24} />
                   </div>
                   <span className="text-sm font-medium text-center">Figma</span>
                 </div>
-                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 transition-colors">
+                <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-blue-light/20 dark:hover:bg-brown-light transition-colors">
                   <div className="h-10 w-10 flex items-center justify-center text-blue-primary">
                     <Terminal size={24} />
                   </div>
@@ -228,7 +228,7 @@ function SkillIcon({ name, color, icon }: SkillIconProps) {
   };
 
   return (
-    <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-green-light/20 transition-colors">
+    <div className="flex flex-col items-center gap-2 p-3 rounded-3xl bg-brown-light/10 hover:bg-green-light dark:hover:bg-brown-light transition-colors">
       <div
         className={`h-12 w-12 flex items-center justify-center ${colorClasses[color]}`}
       >

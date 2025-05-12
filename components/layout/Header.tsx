@@ -15,9 +15,6 @@ export default function Header({
     <header className="sticky top-0 z-50 bg-cream/90 dark:bg-cream/95 backdrop-blur-sm border-b border-brown-light/20 transition-colors duration-300">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-green-primary flex items-center justify-center text-cream font-bold">
-            AH
-          </div>
           <span className="font-medium">Angel Halouane</span>
         </div>
 
