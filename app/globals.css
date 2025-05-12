@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cream: 40, 38%, 95%;
+    --green-primary: 100, 40%, 52%;
+    --green-light: 100, 40%, 80%;
+    --brown-dark: 30, 25%, 25%;
+    --brown-medium: 30, 15%, 40%;
+    --brown-light: 30, 15%, 80%;
+    --pink-primary: 330, 80%, 60%;
+    --pink-light: 330, 80%, 80%;
+    --yellow-primary: 40, 90%, 60%;
+    --yellow-light: 40, 90%, 80%;
+    --blue-primary: 210, 80%, 60%;
+    --blue-light: 210, 80%, 80%;
+  }
+
+  .dark {
+    --cream: 30, 15%, 15%;
+    --green-primary: 100, 40%, 45%;
+    --green-light: 100, 30%, 25%;
+    --brown-dark: 40, 38%, 95%;
+    --brown-medium: 40, 30%, 80%;
+    --brown-light: 30, 15%, 30%;
+    --pink-primary: 330, 70%, 55%;
+    --pink-light: 330, 30%, 25%;
+    --yellow-primary: 40, 70%, 55%;
+    --yellow-light: 40, 30%, 25%;
+    --blue-primary: 210, 70%, 55%;
+    --blue-light: 210, 30%, 25%;
+  }
+}
+
+body {
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
+}
+
+.bg-cream {
+  background-color: hsl(var(--cream));
+}
+
+.text-cream {
+  color: hsl(var(--cream));
+}
+
+.bg-green-primary {
+  background-color: hsl(var(--green-primary));
+}
+
+.text-green-primary {
+  color: hsl(var(--green-primary));
+}
+
+.bg-green-light {
+  background-color: hsl(var(--green-light));
+}
+
+.text-green-light {
+  color: hsl(var(--green-light));
+}
+
+.bg-brown-dark {
+  background-color: hsl(var(--brown-dark));
+}
+
+.text-brown-dark {
+  color: hsl(var(--brown-dark));
+}
+
+.bg-brown-medium {
+  background-color: hsl(var(--brown-medium));
+}
+
+.text-brown-medium {
+  color: hsl(var(--brown-medium));
+}
+
+.bg-brown-light {
+  background-color: hsl(var(--brown-light));
+}
+
+.text-brown-light {
+  color: hsl(var(--brown-light));
+}
+
+.border-brown-light {
+  border-color: hsl(var(--brown-light));
+}
+
+.text-pink-primary {
+  color: hsl(var(--pink-primary));
+}
+
+.bg-pink-light {
+  background-color: hsl(var(--pink-light));
+}
+
+.text-yellow-primary {
+  color: hsl(var(--yellow-primary));
+}
+
+.bg-yellow-light {
+  background-color: hsl(var(--yellow-light));
+}
+
+.text-blue-primary {
+  color: hsl(var(--blue-primary));
+}
+
+.bg-blue-light {
+  background-color: hsl(var(--blue-light));
+}
+
+.prose {
+  max-width: 65ch;
+  color: hsl(var(--brown-medium));
+}
+
+.prose p {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+/* Dark mode adjustments */
+.dark .bg-brown-light\/10 {
+  background-color: hsla(var(--brown-light), 0.2);
+}
+
+.dark .border-brown-light\/20 {
+  border-color: hsla(var(--brown-light), 0.3);
+}
+
+.dark .bg-green-light\/30 {
+  background-color: hsla(var(--green-light), 0.5);
+}
+
+/* Timeline styles */
+.timeline-container {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background-color: hsl(var(--brown-light));
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: hsl(var(--green-primary));
+  border: 3px solid hsl(var(--cream));
+  z-index: 1;
+}
+
+.dark .timeline-dot {
+  border-color: hsl(var(--cream));
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(var(--rotation, 0deg));
+  }
+  50% {
+    transform: translateY(-10px) rotate(var(--rotation, 0deg));
+  }
+  100% {
+    transform: translateY(0px) rotate(var(--rotation, 0deg));
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+  --rotation: var(--rotate, 0deg);
+}
+
+/* Skill card hover effect */
+.skill-card {
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.dark .skill-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
