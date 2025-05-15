@@ -33,10 +33,12 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
-          <span className="h-6 w-6 rounded-full bg-green-primary"></span>
-          Skills
-        </h2>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
+            <span className="h-6 w-6 rounded-full bg-green-primary"></span>
+            Skills
+          </h2>
+        </div>
 
         <div className="max-w-4xl mx-auto">
           {/* Stickers */}

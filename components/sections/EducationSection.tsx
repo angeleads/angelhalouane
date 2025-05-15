@@ -2,10 +2,12 @@ export default function EducationSection() {
   return (
     <section id="education" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
-          <span className="h-6 w-6 rounded-full bg-green-primary"></span>
-          Education
-        </h2>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
+            <span className="h-6 w-6 rounded-full bg-green-primary"></span>
+            Education
+          </h2>
+        </div>
 
         <div className="max-w-4xl mx-auto">
           {/* Timeline */}
@@ -47,7 +49,7 @@ function EducationItem({
 }: EducationItemProps) {
   return (
     <div className="relative">
-      <div className="timeline-dot" style={{ top: "24px" }}></div>
+      <div className="timeline-dot " style={{ top: "24px" }}></div>
       <div className="bg-cream border border-brown-light/20 rounded-xl p-6 shadow-sm dark:shadow-none">
         <div className="flex flex-wrap justify-between items-start gap-4 mb-4">
           <div>
