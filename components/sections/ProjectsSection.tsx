@@ -6,7 +6,7 @@ interface Project {
   subtitle: string;
   description: string;
   image: string;
-  tags: { text: string; color: "green" | "pink" | "blue" | "yellow" }[];
+  tags: { text: string; color: "green" | "pink" | "blue" | "yellow"}[];
   url: string;
 }
 
@@ -22,6 +22,8 @@ export default function ProjectsSection() {
         { text: "NextJS", color: "green" },
         { text: "UX/UI", color: "pink" },
         { text: "Tailwind", color: "blue" },
+        { text: "React native", color: "pink" },
+        { text: "Expo", color: "blue" },
       ],
       url: "http://www.sharetogo.es",
     },
