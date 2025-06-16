@@ -24,10 +24,6 @@ export default function AboutSection() {
 
           <div className="mt-8 flex flex-col sm:flex-row gap-6">
             <div className="flex items-center gap-2">
-              <Phone className="text-green-primary" size={18} />
-              <span>+34 667 881 370</span>
-            </div>
-            <div className="flex items-center gap-2">
               <Mail className="text-green-primary" size={18} />
               <span>halouane.angel@epitech.eu</span>
             </div>

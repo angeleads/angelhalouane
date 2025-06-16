@@ -159,7 +159,7 @@ export default function SkillsSection() {
                 <li className="flex justify-between items-center">
                   <span>English</span>
                   <span className="text-sm bg-blue-light text-blue-primary px-2 py-1 rounded-xl">
-                    C1 Level
+                    C2 Level
                   </span>
                 </li>
                 <li className="flex justify-between items-center">

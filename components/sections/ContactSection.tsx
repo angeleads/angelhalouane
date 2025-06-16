@@ -17,16 +17,6 @@ export default function ContactSection() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="h-10 w-10 rounded-full bg-green-light/30 flex items-center justify-center text-green-primary">
-                  <Phone size={18} />
-                </div>
-                <div>
-                  <p className="text-sm text-brown-medium">Phone</p>
-                  <p>+34 667 881 370</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <div className="h-10 w-10 rounded-full bg-green-light/30 flex items-center justify-center text-green-primary">
                   <Mail size={18} />
                 </div>
                 <div>
