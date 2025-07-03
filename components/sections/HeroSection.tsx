@@ -78,7 +78,7 @@ export default function HeroSection() {
               Get in Touch
             </a>
             <a
-              href="/ANGEL HALOUANE ATS JUNIOR FULL-STACK DEVELOPER 2025.pdf"
+              href="/Angel Halouane CV Junior Full Stack Developer.pdf"
               className="px-6 py-3 border border-brown-light/30 rounded-3xl font-medium text-brown-dark hover:bg-brown-light/10 transition-colors flex items-center gap-2"
             >
               <Download size={18} />
