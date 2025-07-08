@@ -54,17 +54,17 @@ export default function ProjectsSection() {
       url: "http://ze-portfolio-builder.vercel.app",
     },
     {
-      title: "Viven Remax",
-      subtitle: "Side Project",
+      title: "EPITECH Barcelona - Student Life",
+      subtitle: "Internship",
       description:
-        "This project is a web page developed for a real estate agency. It showcases properties, offers a user-friendly interface, and is built with Next.js and Tailwind CSS. The site is designed to provide an engaging experience for users looking to buy or sell properties.",
-      image: "/viven.png",
+        "Developed this project after my internship tutor mentioned of a 'need of a fresher design' of a previously made website.Two weeks later I showed him this more appealing website to showcase EPITECH Barcelona to the international students",
+      image: "/epitech-barcelona.png",
       tags: [
         { text: "NextJS", color: "green" },
         { text: "Tailwind", color: "pink" },
-        { text: "Axios", color: "yellow" },
+        { text: "UX/UI", color: "yellow" },
       ],
-      url: "https://viven-website.vercel.app/",
+      url: "https://bcn-student-life.vercel.app/",
     },
   ];
 
